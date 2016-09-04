@@ -1,6 +1,6 @@
 {
   "name": "sujs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个精简的仿express库",
   "main": "index",
   "scripts": {

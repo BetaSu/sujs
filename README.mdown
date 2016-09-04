@@ -6,5 +6,10 @@
  v1.0.0
 ## 安装
 ```
-npm install sujs
+$ npm install sujs
+```
+## 教学
+ 每个模块的构建过程详见博客express源码实现系列
+```
+https://betasu.github.io/archives/
 ```
