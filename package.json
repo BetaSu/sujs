@@ -1,0 +1,11 @@
+{
+  "name": "sujs",
+  "version": "1.0.0",
+  "description": "一个精简的仿express库",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "betaSu",
+  "license": "MIT"
+}
