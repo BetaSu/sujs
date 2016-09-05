@@ -12,7 +12,7 @@ $ npm install sujs
 ## 构建过程
  每个模块的构建过程详见博客express源码实现系列
 ```
-https://betasu.github.io/archives/
+<a href="https://betasu.github.io/archives/">点击访问我的博客<a>
 ```
 ## 使用
 ```
