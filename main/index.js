@@ -4,6 +4,7 @@ var sujs=function  () {
         var method=req.method.toLowerCase();
         var pathname=urlObj.pathname;
         var index=0;
+        req.method=method;
         req.pathname=pathname;
 
         res.send=function  (msg) {

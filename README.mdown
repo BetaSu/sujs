@@ -13,23 +13,11 @@ $ npm install sujs
 ```
 ## 构建过程
  每个模块的构建过程详见博客express源码实现系列
-```
-https://betasu.github.io/archives/
-```
-## 更新情况
- -v1.0.3
-	实现了res.send(msg)
- -v1.0.2
- 	实现了req.params 及错误中间件	 
-
-## 构建过程
-```
 <a href="https://betasu.github.io/archives/">点击访问我的博客</a>
-```
 
-## 使用
-```
-var sujs=require('sujs');
-var app=sujs();
-```
+## 更新情况
+ -v1.0.4
+	更新了文件结构，实现了静态服务器插件
+
+
 

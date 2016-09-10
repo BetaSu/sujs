@@ -5,6 +5,6 @@
  * 我的知乎: https://www.zhihu.com/people/jing-cang-tian
  */
 
-var sujs=require('./lib');
+var sujs=require('./main');
 
 module.exports=sujs;
