@@ -1,7 +1,7 @@
 {
   "name": "sujs",
-  "version": "1.0.4",
-  "description": "一个精简的仿express库",
+  "version": "1.0.5",
+  "description": "一个精简的nodeJS库",
   "main": "index",
   "scripts": {},
   "author": "betaSu",

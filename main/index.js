@@ -6,6 +6,7 @@ var sujs=function  () {
         var index=0;
         req.method=method;
         req.pathname=pathname;
+        req.path=pathname;
 
         res.send=function  (msg) {
             if (typeof msg =='string'||Buffer.isBuffer(msg)) {

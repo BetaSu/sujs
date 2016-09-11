@@ -16,8 +16,8 @@ $ npm install sujs
 <a href="https://betasu.github.io/archives/">点击访问我的博客</a>
 
 ## 更新情况
- -v1.0.4
-	更新了文件结构，实现了静态服务器插件
+ -v1.0.5
+	更新了文件结构，修复了bug
 
 
 
