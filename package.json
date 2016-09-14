@@ -1,6 +1,6 @@
 {
   "name": "sujs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "一个精简的nodeJS库",
   "main": "index",
   "scripts": {},

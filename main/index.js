@@ -101,4 +101,10 @@ var sujs=function  () {
     return app;
 }
 
+var plugins=require('../plugins/');
+for (plugin in plugins) {
+    sujs[plugin]=plugins[plugin];
+}
+
+
 module.exports=sujs;
