@@ -1,6 +1,6 @@
 # sujs
 
-一款基于nodejs的后端库
+一款用于前后端交互的nodejs库
 ***
 ## 介绍
  作为一款主流的后端库，express实现了对nodejs常用方法的封装。在nodejs的学习过程中刚接触到express的感觉就如同当初学习JS后接触jQuery的感受一样，四个字形容——酣畅淋漓。
