@@ -101,8 +101,10 @@ var sujs=function  () {
     return app;
 }
 
-var plugins=require('../plugins/');
+//插件注入到主模块
+var plugins=require('./plugins');
 for (plugin in plugins) {
+    console.log('已加载成功'+plugin+'插件');
     sujs[plugin]=plugins[plugin];
 }
 
