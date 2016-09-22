@@ -1,12 +1,12 @@
 {
   "name": "sujs",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "一个精简的nodeJS库",
   "main": "index",
   "scripts": {},
   "author": "betaSu",
   "license": "MIT",
   "dependencies": {
-    "mime": "^1.3.4"
+    "querystring": "^0.2.0"
   }
 }
