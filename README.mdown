@@ -1,27 +1,26 @@
 # sujs
-一款用于前后端交互的nodejs库
-## 介绍
- sujs是一款轻量级的nodejs库，致力于便捷的前后端交互。他具有以下特点：
- 1.  在express实现原理基础上构建，更加轻量级。
- 2.  以插件形式注入常用方法、组件，无需再次安装。
- 3.  所有源码（包括插件）实现都记录在博客中，简单易懂。
+Unopinionated, fast , simple web framework for node 
+## Feature
+ sujs is a lightweight web framework for nodejs,it is committed to a convenient interactive.it has the following features：
+ 1.  Sujs's source code is base on the principle of Express,but lighter. 
+ 2.  Inject common methods in the form of plug-ins,no need to install.
+ 3.  All  source codes (including plug-ins) are recorded in my blog.<a href="https://betasu.github.io/archives/">click here to visit my blog</a>
  
-## 安装
+## Install
 ```
 $ npm install sujs
 ```
-## 使用手册
+## manual
 ```
-//未完成
+//unfinished
 ```
-## 构建过程
- 每个模块的构建过程详见博客express源码实现系列
-<a href="https://betasu.github.io/archives/">点击访问我的博客</a>
 
-## 更新情况
- - 当前版本:v1.0.7
- - 实现了重定向插件。
- - 插件加载机制完成。
+## update
+Last vision:v1.0.7
+- Redirect plugin completed.
+- Plug-in loading mechanism is completed.
 
+## License
+<a href="https://github.com/BetaSu/sujs/blob/master/LICENSE">MIT</a>
 
 
