@@ -1,7 +1,7 @@
-# sujs
+# Sujs
 Unopinionated, fast , simple web framework for node 
 ## Feature
- sujs is a lightweight web framework for nodejs,it is committed to a convenient interactive.it has the following features：
+ Sujs is a lightweight web framework for nodejs,it is committed to a convenient interactive.it has the following features：
  1.  Sujs's source code is base on the principle of Express,but lighter. 
  2.  Inject common methods in the form of plug-ins,no need to install.
  3.  All  source codes (including plug-ins) are recorded in my blog.<a href="https://betasu.github.io/archives/">click here to visit my blog</a>
@@ -10,12 +10,31 @@ Unopinionated, fast , simple web framework for node
 ```
 $ npm install sujs
 ```
-## manual
+## Manual
 ```
 //unfinished
 ```
+## Quick Start
+```javascript
+var sujs=require('sujs');
+var app=sujs();
+//load cookie-parser plugin
+var cookieParser=sujs['cookieParser'];
 
-## update
+//inject cookie-parser plugin
+app.use(cookieParser);)
+
+app.use(function (req,res,next) {
+ console.log('I am middleware');
+ next();
+})
+
+app.get('/',function (req,res) {
+ res.send('hello front end!');
+})
+```
+
+## Update
 Last vision:v1.0.7
 - Redirect plugin completed.
 - Plug-in loading mechanism is completed.
